@@ -19,6 +19,11 @@ jobs:
     # Use a container with GLIBC 2.17
     container: quay.io/pypa/manylinux2014_x86_64
     steps:
+      - name: Test
+        run: |
+          which python
+          which python3
+          which apt-get
       - name: Show GLIBC
         run: ldd --version
       - name: Checkout sources

@@ -1,3 +1,11 @@
+# v0.3
+
+## My changelog
+- feature 1
+- feature 2
+
+## My other changelog
+- so many bugs fixed
 
 # v0.2.1
 
